@@ -4,12 +4,16 @@
     "pages/logs/logs"
   ],
   "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ff3388",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
+    "color":"#000",
+    "selectedColor":"blue",
+    "backgroundColor":"#f38",
     "list": [
       {
       "pagePath": "pages/index/index",
